@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/shopper/styles.css">
+    <title>Shopper</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="mission header_info">Источники</div>
+            <div class="contacts header_info">Контакты</div>
+        </header>
+        <div class="main-content">
+            <div class="inputs">
+                <div class="inputs_text">Добавьте все продукты в корзину</div>
+                <div class="inner-inputs">
+                    <form class="form" action="#">
+                        <div class="allStringInputs">
+                        <div class="stringInputs">
+                            <div class="oneStrinInput">
+                                <div class="inputText">
+                                    <input type="text" value="" name="goodsName" class="goodsNameInput" placeholder="Введите название товара" autocomplete="off">
+                                </div>
+                                <div class="inputButtons">
+                                    <div hidden class="buttonAdd">+</div>
+                                    <div class="buttonSubtract">-</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="divSubmitButton">
+                            <button type="submit" class="submitButton">Посчитать корзину</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="results">
+                <div class="theBestOffer">Лучшее предложение</div>
+                <div class="priceTables">Таблицы<br><br>ziemniaki<br>jablka<br>kurczak<br>pieczarki</div>
+            </div>
+        </div>
+    </div>
+    <script src="/shopper/script.js"></script>
+</body>
+</html>
