@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none}
+
+nav, footer, header, aside {display: block;}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+
+
+body{
+  background-color:#FAF0E6;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header{
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  height: 60px;
+  flex: 0 0 auto;
+  background-color: bisque;
+  width: 100%;
+  padding: 20px;
+}
+
+.header_info{
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content{
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.inputs{
+  width: 600px;
+  padding: 30px;
+}
+
+.inputs_text{
+  margin-bottom: 15px;
+}
+
+
+.oneStrinInput{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 7px;
+}
+
+.allStringInputs{
+  margin-bottom: 15px;
+}
+
+.goodsNameInput{
+  height: 30px;
+  width: 270px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.inputButtons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputButtons > div {
+  width: 50px;
+  border: 1px solid black;
+}
+
+.buttonAdd{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.buttonSubtract{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divSubmitButton{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButton{
+  height: 30px;
+  width: 220px;
+  border: 1px solid black;
+}
+
+.results{
+  width: 100%;
+  padding: 30px;
+  border-left: 1px solid black;
+}
+
+.theBestOffer{
+  margin-bottom: 15px;
+}
+
+.hiddenClass{
+  visibility: hidden;
+}
